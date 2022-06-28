@@ -44,6 +44,11 @@ ul
     list-style: none;
 }
 
+.d-none
+{
+    display: none;
+}
+
 .section
 {
     background: var(--bg-black-900);
@@ -822,6 +827,7 @@ h3.my-profession
     margin: 15px 0 5px;
 }
 
+
 .contact .contact-info-item p
 {
     font-size: 16px;
@@ -880,6 +886,12 @@ h3.my-profession
     height: 50px;
     padding: 0 50px;
 }
+
+.contact .contact-form .d-none
+{
+    display: none;
+}
+
 
 @media (max-width:1199px)
 {
